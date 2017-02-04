@@ -47,9 +47,54 @@ nav ul li {
 
 /* Krissy's Styles */
 
-.kc-title div{
+div.kc-title {
+  text-align: center;
+  width: 100%;
+}
+
+.kc-column-container {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.kc-column1 {
+  width: 400px;
+}
+
+.kc-column2 {
+  width: 400px;
+}
+
+.kc-column1 h5 {
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #
+}
+
+.kc-column2 h5 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.kc-column1 p {
+  font-size: .9em;
+}
+
+.kc-column2 p {
+  font-size: .9em;
+
+}
+
+.kc-column1 a{
+  color: red;
+}
+
+.kc-column2 a{
+  color: red;
+}
+
+.kc-column-container p {
+  padding: 10px;
 }
 
 /*End Krissy's Styles */
