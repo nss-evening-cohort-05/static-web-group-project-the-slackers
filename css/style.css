@@ -38,9 +38,34 @@ nav ul li {
   }
 .copyright {
 }
-
 .tf-hero-image {
   background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
   background-size: cover;
   height: 650px;
 }
+
+/* Krissy's Styles */
+
+.kc-title div{
+  display: flex;
+  justify-content: center;
+}
+
+/*End Krissy's Styles */
+
+
+/* Marcus Styles */
+
+/*End Marcus Styles */
+
+
+
+/* Ben Styles */
+
+/*End Ben Styles */
+
+
+
+/* Thomas Styles */
+
+/*End Thomas Styles */
