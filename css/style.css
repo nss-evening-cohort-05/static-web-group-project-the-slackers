@@ -1,1 +1,46 @@
-Placeholder
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  font-family:'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color:#ffffff;
+}
+header {
+  text-align:center;
+  width:100%;
+  background-color: #7A93FF;
+  height: 100px;
+}
+nav ul {
+  padding-top: 60px;
+}
+nav ul li {
+  display: inline;
+  margin: 5px 35px;
+}
+
+
+.footer-container {
+  background-color: #3A4F95;
+  color: #fbfbfb;
+  text-align:center;
+}
+  .footer-container a {
+    color: #fbfbfb;
+  }
+  .footer-container nav {
+    text-align:center;
+    padding-bottom: 60px;
+  }
+.copyright {
+}
+
+.tf-hero-image {
+  background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
+  background-size: cover;
+  height: 650px;
+}
