@@ -55,6 +55,44 @@ nav ul li {
 
 
 /* Marcus Styles */
+.jmg-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.jmg-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  text-align: center;
+}
+.jmg-about-info {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.jmg-howard-founder {
+  margin: auto;
+}
+
+.jmg-about-info2 {
+  width: 100%;
+  padding: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  text-align: auto;
+}
+
+.jmg-img-oldduck {
+  margin: auto;
+}
+
+
 
 /*End Marcus Styles */
 
