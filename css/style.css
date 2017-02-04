@@ -38,7 +38,6 @@ nav ul li {
   }
 .copyright {
 }
-
 .tf-hero-image {
   background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
   background-size: cover;
@@ -47,15 +46,99 @@ nav ul li {
 
 /* Krissy's Styles */
 
-.kc-title div{
+
+div.kc-title {
+  text-align: center;
+  width: 100%;
+}
+
+.kc-column-container {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.kc-column1 {
+  width: 400px;
+}
+
+.kc-column2 {
+  width: 400px;
+}
+
+.kc-column1 h5 {
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: #
+}
+
+.kc-column2 h5 {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.kc-column1 p {
+  font-size: .9em;
+}
+
+.kc-column2 p {
+  font-size: .9em;
+
+}
+
+.kc-column1 a{
+  color: red;
+}
+
+.kc-column2 a{
+  color: red;
+}
+
+.kc-column-container p {
+  padding: 10px;
 }
 
 /*End Krissy's Styles */
 
 
 /* Marcus Styles */
+.jmg-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.jmg-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  text-align: center;
+}
+.jmg-about-info {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.jmg-howard-founder {
+  margin: auto;
+}
+
+.jmg-about-info2 {
+  width: 100%;
+  padding: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  text-align: auto;
+}
+
+.jmg-img-oldduck {
+  margin: auto;
+}
+
+
 
 /*End Marcus Styles */
 
@@ -69,68 +152,5 @@ nav ul li {
 
 /* Thomas Styles */
 
-.tf-hero-image {
-  background: rgba(0, 0, 0, 0.55);
-  background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
-  background-size: cover;
-  height: 650px;
-}
-.tf-header-title {
-  width: 100%;
-  text-align:center;
-  margin: auto;
-  padding-top: 275px;
-}
-  .tf-header-title button {
-    width: 300px;
-    padding: 20px 0px;
-    text-align:center;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    color: #fbfbfb;
-    font-size: 16px;
-  }
-  .tf-header-title button:hover {
-    background-color: #fff;
-    color: #666;
-    cursor: pointer;
-  }
-    .tf-header-title h1 {
-      font-size: 66px;
-      color: #fbfbfb;
-      text-shadow: 0px 0px 15px black;
-    }
-
-.tf-content-container {
-  font-size: 1.1em;
-  color: #666;
-  margin: 40px 60px;
-}
-.tf-column-container {
-  margin: 50px 150px;
-  padding-bottom: 100px;
-  font-size: 1.0em;
-}
-.tf-column-1 {
-  width: 300px;
-  float: left;
-}
-.tf-column-2 {
-  width: 300px;
-  float: right;
-}
-.tf-column-button {
-
-}
-.clear {
-  clear:both;
-}
-
-.tf-testimonial-row {
-  padding: 100px;
-
-}
 
 /*End Thomas Styles */
