@@ -6,7 +6,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-  </div>
     <header>
       <nav>
         <ul>
@@ -18,39 +17,49 @@
         </ul>
       </nav>
     </header> 
-    <div>
-      <p>Our commitment to our craft has made us the finest purveyors of custom rubber duckies in the western hemisphere.<br>
-      Our custom duckies are guaranteed to:</p>
-      <ul>
+    <div class="bsg-marginleft">
+      <h3 class="bsg-header">Our commitment to our craft has made us the <em>finest</em> purveyors of custom rubber duckies in the western hemisphere.</h3><br>
+      <p>Our custom duckies are guaranteed to:</p>
+      <ul class="bsg-ul">
         <li>Resist up to 120 psi of pressure</li>
         <li>Survive a Californian wildfire</li>
         <li>Float through a category 4 hurricane</li>
         <li>Outlast cochroaches in the event of a nuclear holocaust</li>
         <li>Answer you if you talk to them</li>
       </ul>
+      <br>
+      </div>
+      <div class="bsg-salesbar">
+        <img src="../images/bsg-duck.jpeg" alt="painting ducky" class="bsg-img">
+        <p class="bsg-salesbartext">Want a special ducky but can't get it from your local ducky distributor?<br>
+        We can help! Contact our sales team below.</p>
+      </div>
+      <div class="bsg-marginleft">
+    <form class="bsg-CustomDuckiesForm" action="#" method="POST" enctype="multipart/form-data">
+      <div>
+        <label for="name">Your name:</label><br />
+        <input id="name" class="bsgContactName" name="name" type="text" value=""  size="30"><br>
+      </div>
+      <br>
+      <div>
+        <label for="email">Your email:</label><br />
+        <input id="email" class="bsgContactEmail" name="email" type="text" value="" size="30" ><br>
+      </div>
+      <br>
+      <div>
+        <label for="message">What kind of ducky are you interested in?:</label><br>
+        <textarea id="message" class="bsgContactInput" name="message" rows="7" cols="75"></textarea><br>
+      </div>
+      <input id="submit_button" type="submit" value="Send!" />
+    </form> 
     </div>
-    <form id="bsgCustomDuckiesForm" action="#" method="POST" enctype="multipart/form-data">
-  <div class="formrow">
-    <label for="name">Your name:</label><br />
-    <input id="name" class="bsgContactName" name="name" type="text" value=""/><br>
-  </div>
-  <div class="row">
-    <label for="email">Your email:</label><br />
-    <input id="email" class="bsgContactEmail" name="email" type="text" value="" size="30" /><br>
-  </div>
-  <div class="row">
-    <label for="message">What kind of ducky are you interested in?:</label><br>
-    <textarea id="message" class="bsgContactInput" name="message" rows="7" cols="30"></textarea><br>
-  </div>
-  <input id="submit_button" type="submit" value="Send!" />
-  </form>           
+    </div>    
     <footer>
       <div class="footer-container">
         <div class="copyright">
           &copy;For Duck's Sake. 2017.
         </div>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
 

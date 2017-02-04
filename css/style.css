@@ -39,7 +39,6 @@ nav ul li {
 .copyright {
 }
 
-=======
 .tf-hero-image {
   background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
   background-size: cover;
@@ -63,6 +62,54 @@ nav ul li {
 
 
 /* Ben Styles */
+
+.bsg-marginleft {
+  margin: 0 30px;
+}
+
+.bsg-ul {
+  margin-left: 30px;
+}
+
+.bsg-salesbar {
+  background-color: #fdff83;
+  margin-bottom: 30px;
+  box-shadow: 0px 9px 23px -4px rgba(0,0,0,0.75);
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  max-height: 150px;
+}
+
+.bsg-img {
+  max-height: 100%;
+  max-width: 170px;
+  padding: 10px 20px 10px 30px;
+}
+
+.bsg-salesbartext {
+  padding: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  flex-grow: 2;
+}
+
+.bsg-header {
+  margin-top: 30px;
+}
+
+.bsg-CustomDuckiesForm {
+  margin-bottom: 30px;
+}
+
+.bsg-largertext {
+  font-size: 2em;
+}
+
+
 
 /*End Ben Styles */
 
