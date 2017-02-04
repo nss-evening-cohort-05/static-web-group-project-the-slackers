@@ -38,3 +38,9 @@ nav ul li {
   }
 .copyright {
 }
+
+.tf-hero-image {
+  background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
+  background-size: cover;
+  height: 650px;
+}
