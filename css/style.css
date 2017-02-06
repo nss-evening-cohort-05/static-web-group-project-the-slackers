@@ -38,6 +38,7 @@ nav ul li {
   }
 .copyright {
 }
+
 .tf-hero-image {
   background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
   background-size: cover;
@@ -95,6 +96,11 @@ div.kc-title {
   padding: 10px;
 }
 
+.kc-title div{
+  display: flex;
+  justify-content: center;
+}
+
 /*End Krissy's Styles */
 
 
@@ -144,31 +150,56 @@ div.kc-title {
 
 /* Ben Styles */
 
-/*End Ben Styles */
-
-
-
-/* Thomas Styles */
-
-<<<<<<< HEAD
-.kc-title div{
-  display: flex;
-  justify-content: center;
+.bsg-marginleft {
+  margin: 0 30px;
 }
 
-/*End Krissy's Styles */
+.bsg-ul {
+  margin-left: 30px;
+  line-height: 1.7em;
+}
 
+.bsg-inline-block {
+  display: inline-block;
+  margin: 15px;
+}
 
-/* Marcus Styles */
+.bsg-salesbar {
+  background-color: #fdff83;
+  margin-bottom: 30px;
+  box-shadow: 0px 9px 23px -4px rgba(0,0,0,0.75);
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  max-height: 150px;
+}
 
-/*End Marcus Styles */
+.bsg-img {
+  max-height: 100%;
+  max-width: 190px;
+  border: 1px solid ;
+  border-radius: 5px;
+}
 
+.bsg-salesbartext {
+  padding: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  flex-grow: 2;
+}
 
+.bsg-header {
+  margin-top: 30px;
+}
 
-/* Ben Styles */
+.bsg-largertext {
+  font-size: 2em;
+}
 
 /*End Ben Styles */
-
 
 
 /* Thomas Styles */
@@ -238,3 +269,20 @@ div.kc-title {
 }
 
 /*End Thomas Styles */
+
+
+/*Store Styles */
+
+.st-cardcontainer {
+  margin: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.st-card {
+  padding: 15px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  margin: 20px;
+  min-width: 18%;
+}
