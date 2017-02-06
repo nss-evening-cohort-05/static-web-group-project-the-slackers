@@ -16,27 +16,35 @@ header {
   height: 100px;
 }
 nav ul {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 nav ul li {
   display: inline;
   margin: 5px 35px;
 }
 
+.company-title {
+
+}
 
 .footer-container {
+  margin-top: 20px;
   background-color: #3A4F95;
   color: #fbfbfb;
   text-align:center;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px 20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
   .footer-container a {
     color: #fbfbfb;
   }
-  .footer-container nav {
-    text-align:center;
-    padding-bottom: 60px;
-  }
+
 .copyright {
+
 }
 
 .tf-hero-image {
@@ -142,8 +150,6 @@ div.kc-title {
   margin: auto;
 }
 
-
-
 /*End Marcus Styles */
 
 
@@ -197,6 +203,16 @@ div.kc-title {
 
 .bsg-largertext {
   font-size: 2em;
+}
+
+.bsg-site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.bsg-content {
+  flex: 1;
 }
 
 /*End Ben Styles */
@@ -271,7 +287,6 @@ div.kc-title {
 /*End Thomas Styles */
 
 
-/*Store Styles */
 
 .st-cardcontainer {
   margin: 30px;
@@ -285,4 +300,30 @@ div.kc-title {
   border-radius: 10px;
   margin: 20px;
   min-width: 18%;
+  box-shadow: 0px 10px 15px -6px rgba(0,0,0,0.75);
 }
+
+.img img{
+  display: block;
+  margin: auto;
+}
+
+.price, .description {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.weight, .dimensions {
+  color: slategrey;
+  font-size: .8em;
+  text-align: center;
+
+}
+
+/*End Store Styles */
+
