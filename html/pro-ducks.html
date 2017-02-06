@@ -5,10 +5,11 @@
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body>
+  <body class="bsg-site">
     <header>
       <nav>
         <ul>
+          <a href="../index.html" class="company-title"><li>Dickies' Duckys</li></a>
           <a href="../index.html"><li>Home</li></a>
           <a href="./about.html"><li>About Our Ducks</li></a>
           <a href="./pro-ducks.html"><li>Custom Pro-ducks</li></a>
@@ -16,50 +17,55 @@
           <a href="./careers.html"><li>Careers</li></a>
         </ul>
       </nav>
-    </header> 
-    <div class="bsg-marginleft">
-      <h3 class="bsg-header">Our commitment to our craft has made us the <em>finest</em> purveyors of custom rubber duckies in the western hemisphere.</h3>
-      <div class="bsg-inline-block">
-        <img src="../images/bsg-duck.jpeg" alt="painting ducky" class="bsg-img">
-      </div>
-      <div class="bsg-inline-block">
-      <p>Our custom duckies are guaranteed to:</p>
-      <ul class="bsg-ul">
-        <li>Resist up to 120 psi of pressure</li>
-        <li>Survive a Californian wildfire</li>
-        <li>Float through a category 4 hurricane</li>
-        <li>Outlast cochroaches in the event of a nuclear holocaust</li>
-        <li>Answer you if you talk to them</li>
-      </ul>
-      </div>
-      <br>
-    </div>
-    <div class="bsg-salesbar">
+    </header>
+    <div class="bsg-content">
+      <div class="bsg-marginleft">
+        <h3 class="bsg-header">Our commitment to our craft has made us the <em>finest</em> purveyors of custom rubber duckies in the western hemisphere.</h3>
+        <div class="bsg-inline-block">
+          <img src="../images/bsg-duck.jpeg" alt="painting ducky" class="bsg-img">
+        </div>
+        <div class="bsg-inline-block">
+        <p>Our custom duckies are guaranteed to:</p>
+        <ul class="bsg-ul">
+          <li>Resist up to 120 psi of pressure</li>
+          <li>Survive a Californian wildfire</li>
+          <li>Float through a category 4 hurricane</li>
+          <li>Outlast cochroaches in the event of a nuclear holocaust</li>
+          <li>Answer you if you talk to them</li>
+        </ul>
+        </div>
+        <br>
       <p class="bsg-salesbartext">Want a special ducky but can't get it from your local ducky distributor?<br>
-      We can help! Contact our sales team below.</p>
+        We can help! Contact our sales team below.</p>  
+      </div>
+      <div class="bsg-form">  
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data" class="bsg-inline-block">
+          <div class="row">
+            <label for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="50" /><br />
+          </div>
+          <div class="row">
+            <label for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="50" /><br />
+          </div>
+          <div class="row">
+            <label for="message">What kind of Ducky would you like?</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
+          </div>
+          <input id="submit_button" type="submit" value="Send email" />
+        </form> 
+        </div>
     </div>
-    <div class="bsg-marginleft">
-      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-        <div class="row">
-          <label for="name">Your name:</label><br />
-          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-        </div>
-        <div class="row">
-          <label for="email">Your email:</label><br />
-          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-        </div>
-        <div class="row">
-          <label for="message">Your message:</label><br />
-          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-        </div>
-        <input id="submit_button" type="submit" value="Send email" />
-      </form>           
-    </div>  
-    <footer>
-      <div class="footer-container">
-        <div class="copyright">
-          &copy;For Duck's Sake. 2017.
-        </div>
+    <footer class="footer-container">
+      <div class="copyright">
+        Dickies' Duckys<br>
+        &copy;For Duck's Sake Inc. 2017<br>
+        All rights reserved
+      </div>
+      <div class="contact-footer">
+        839-291-0493<br>
+        492 Mallard Lane<br>
+        Nashville, TN 37215<br>
       </div>
     </footer>
   </body>
