@@ -18,7 +18,11 @@
       </nav>
     </header> 
     <div class="bsg-marginleft">
-      <h3 class="bsg-header">Our commitment to our craft has made us the <em>finest</em> purveyors of custom rubber duckies in the western hemisphere.</h3><br>
+      <h3 class="bsg-header">Our commitment to our craft has made us the <em>finest</em> purveyors of custom rubber duckies in the western hemisphere.</h3>
+      <div class="bsg-inline-block">
+        <img src="../images/bsg-duck.jpeg" alt="painting ducky" class="bsg-img">
+      </div>
+      <div class="bsg-inline-block">
       <p>Our custom duckies are guaranteed to:</p>
       <ul class="bsg-ul">
         <li>Resist up to 120 psi of pressure</li>
@@ -27,15 +31,29 @@
         <li>Outlast cochroaches in the event of a nuclear holocaust</li>
         <li>Answer you if you talk to them</li>
       </ul>
+      </div>
       <br>
     </div>
     <div class="bsg-salesbar">
-      <img src="../images/bsg-duck.jpeg" alt="painting ducky" class="bsg-img">
       <p class="bsg-salesbartext">Want a special ducky but can't get it from your local ducky distributor?<br>
       We can help! Contact our sales team below.</p>
     </div>
     <div class="bsg-marginleft">
-      
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label for="name">Your name:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        </div>
+        <div class="row">
+          <label for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        </div>
+        <div class="row">
+          <label for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        </div>
+        <input id="submit_button" type="submit" value="Send email" />
+      </form>           
     </div>  
     <footer>
       <div class="footer-container">

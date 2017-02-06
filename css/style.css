@@ -46,7 +46,6 @@ nav ul li {
 }
 
 /* Krissy's Styles */
-
 div.kc-title {
   text-align: center;
   width: 100%;
@@ -95,6 +94,11 @@ div.kc-title {
 
 .kc-column-container p {
   padding: 10px;
+}
+
+.kc-title div{
+  display: flex;
+  justify-content: center;
 }
 
 /*End Krissy's Styles */
@@ -152,6 +156,12 @@ div.kc-title {
 
 .bsg-ul {
   margin-left: 30px;
+  line-height: 1.7em;
+}
+
+.bsg-inline-block {
+  display: inline-block;
+  margin: 15px;
 }
 
 .bsg-salesbar {
@@ -168,8 +178,9 @@ div.kc-title {
 
 .bsg-img {
   max-height: 100%;
-  max-width: 170px;
-  padding: 10px 20px 10px 30px;
+  max-width: 190px;
+  border: 1px solid ;
+  border-radius: 5px;
 }
 
 .bsg-salesbartext {
@@ -184,36 +195,94 @@ div.kc-title {
   margin-top: 30px;
 }
 
-.bsg-CustomDuckiesForm {
-  margin-bottom: 30px;
-}
-
 .bsg-largertext {
   font-size: 2em;
-}
-
-.flex-outer li,
-.flex-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.flex-outer > li > label,
-.flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 220px;
-}
- 
-.flex-outer > li > label + *,
-.flex-inner {
-  flex: 1 0 220px;
 }
 
 /*End Ben Styles */
 
 
-
 /* Thomas Styles */
 
+.tf-hero-image {
+  background: rgba(0, 0, 0, 0.55);
+  background-image: url("http://blogs.massaudubon.org/yourgreatoutdoors/wp-content/uploads/sites/20/2012/08/duckderby.jpg");
+  background-size: cover;
+  height: 650px;
+}
+.tf-header-title {
+  width: 100%;
+  text-align:center;
+  margin: auto;
+  padding-top: 275px;
+}
+  .tf-header-title button {
+    width: 300px;
+    padding: 20px 0px;
+    text-align:center;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fbfbfb;
+    font-size: 16px;
+  }
+  .tf-header-title button:hover {
+    background-color: #fff;
+    color: #666;
+    cursor: pointer;
+  }
+    .tf-header-title h1 {
+      font-size: 66px;
+      color: #fbfbfb;
+      text-shadow: 0px 0px 15px black;
+    }
+
+.tf-content-container {
+  font-size: 1.1em;
+  color: #666;
+  margin: 40px 60px;
+}
+.tf-column-container {
+  margin: 50px 150px;
+  padding-bottom: 100px;
+  font-size: 1.0em;
+}
+.tf-column-1 {
+  width: 300px;
+  float: left;
+}
+.tf-column-2 {
+  width: 300px;
+  float: right;
+}
+.tf-column-button {
+
+}
+.clear {
+  clear:both;
+}
+
+.tf-testimonial-row {
+  padding: 100px;
+
+}
+
 /*End Thomas Styles */
+
+
+/*Store Styles */
+
+.st-cardcontainer {
+  margin: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.st-card {
+  padding: 15px;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  margin: 20px;
+  min-width: 18%;
+}
