@@ -14,17 +14,38 @@ header {
   width:100%;
   background-color: #7A93FF;
   height: 100px;
+  box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.75);
 }
 nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
   padding-top: 20px;
+  width: 80%;
 }
+
+nav ul:first-child {
+  margin-left: auto;
+}
+
+nav ul:last-child {
+  margin-right: auto;
+}
+
 nav ul li {
-  display: inline;
-  margin: 5px 35px;
+  list-style: none;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .company-title {
-
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #3A4F95;
+  padding: 0 10px;
+  border-radius: 10px;
 }
 
 .footer-container {
@@ -57,6 +78,7 @@ nav ul li {
 div.kc-title {
   text-align: center;
   width: 100%;
+  margin-top: 30px;
 }
 
 .kc-column-container {
@@ -114,8 +136,7 @@ div.kc-title {
 
 /* Marcus Styles */
 .jmg-margin {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 .jmg-header {
   margin-top: 30px;
@@ -170,18 +191,6 @@ div.kc-title {
   margin: 15px;
 }
 
-.bsg-salesbar {
-  background-color: #fdff83;
-  margin-bottom: 30px;
-  box-shadow: 0px 9px 23px -4px rgba(0,0,0,0.75);
-  padding: 0;
-  display: flex;
-  flex-flow: row;
-  justify-content: flex-start;
-  align-content: flex-start;
-  max-height: 150px;
-}
-
 .bsg-img {
   max-height: 100%;
   max-width: 190px;
@@ -190,15 +199,15 @@ div.kc-title {
 }
 
 .bsg-salesbartext {
-  padding: 30px;
   font-size: 1.2em;
+  padding: 15px;
   font-weight: bold;
   text-align: left;
-  flex-grow: 2;
 }
 
 .bsg-header {
   margin-top: 30px;
+  margin-left: 15px;
 }
 
 .bsg-largertext {
@@ -213,6 +222,10 @@ div.kc-title {
 
 .bsg-content {
   flex: 1;
+}
+
+.bsg-form {
+  margin-left: 30px;
 }
 
 /*End Ben Styles */

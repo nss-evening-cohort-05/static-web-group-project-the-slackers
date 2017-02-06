@@ -7,9 +7,9 @@
   </head>
   <body class="bsg-site">
     <header>
-    <h2 class="company-title">Dickies' Duckys</h2>
       <nav>
         <ul>
+          <a href="../index.html" class="company-title"><li>Dickies' Duckys</li></a>
           <a href="../index.html"><li>Home</li></a>
           <a href="./about.html"><li>About Our Ducks</li></a>
           <a href="./pro-ducks.html"><li>Custom Pro-ducks</li></a>
@@ -35,13 +35,11 @@
         </ul>
         </div>
         <br>
+      <p class="bsg-salesbartext">Want a special ducky but can't get it from your local ducky distributor?<br>
+        We can help! Contact our sales team below.</p>  
       </div>
-      <div class="bsg-salesbar">
-        <p class="bsg-salesbartext">Want a special ducky but can't get it from your local ducky distributor?<br>
-        We can help! Contact our sales team below.</p>
-      </div>
-      <div class="bsg-marginleft">
-        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="bsg-form">  
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data" class="bsg-inline-block">
           <div class="row">
             <label for="name">Your name:</label><br />
             <input id="name" class="input" name="name" type="text" value="" size="50" /><br />
@@ -51,12 +49,12 @@
             <input id="email" class="input" name="email" type="text" value="" size="50" /><br />
           </div>
           <div class="row">
-            <label for="message">Your message:</label><br />
+            <label for="message">What kind of Ducky would you like?</label><br />
             <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
           </div>
           <input id="submit_button" type="submit" value="Send email" />
-        </form>           
-      </div>  
+        </form> 
+        </div>
     </div>
     <footer class="footer-container">
       <div class="copyright">
